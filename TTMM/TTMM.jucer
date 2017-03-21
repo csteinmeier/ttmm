@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="UcEEPk" name="TTMM" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.ttmm.JuceVSTPlugin" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="0" buildAU="0" buildRTAS="0" buildAAX="0"
+              pluginName="JuceVSTPlugin" pluginDesc="JuceVSTPlugin" pluginManufacturer="TTMM"
+              pluginManufacturerCode="ttmm" pluginCode="Plug" pluginChannelConfigs="{1, 1}, {2, 2}"
+              pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="0"
+              pluginSilenceInIsSilenceOut="0" pluginEditorRequiresKeys="0"
+              pluginAUExportPrefix="GeneralPluginAU" pluginRTASCategory=""
+              aaxIdentifier="com.yourcompany.GeneralPlugin" pluginAAXCategory="AAX_ePlugInCategory_Dynamics"
+              jucerVersion="3.1.1">
+  <MAINGROUP id="aoDxb9" name="TTMM">
+    <GROUP id="{69D705BD-7696-5EED-6776-A31ABB5E0E5D}" name="Source">
+      <FILE id="MqT0ph" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="K9z35Z" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="WfPQrW" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="hRVNYn" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2013 targetFolder="./" vstFolder="" extraDefs="DONT_SET_USING_JUCE_NAMESPACE=1">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="GeneralPlugin" headerPath="JuceLibraryCode&#10;$(SolutionDir)/External/JUCE/modules&#10;$(SolutionDir)/External/SDK/VST2&#10;$(SolutionDir)/External/SDK/ASIOSDK2.3/common&#10;%(AdditionalIncludeDirectories)"
+                       defines="DONT_SET_USING_JUCE_NAMESPACE=1"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="GeneralPlugin" headerPath="JuceLibraryCode&#10;$(SolutionDir)/External/JUCE/modules&#10;$(SolutionDir)/External/SDK/VST2&#10;$(SolutionDir)/External/SDK/ASIOSDK2.3/common&#10;%(AdditionalIncludeDirectories)"
+                       defines="DONT_SET_USING_JUCE_NAMESPACE=1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../External/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../External/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../External/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../External/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../External/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../External/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../External/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../External/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../External/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../External/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../External/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled" JUCE_ASIO="enabled" JUCE_WASAPI="disabled"
+               JUCE_WASAPI_EXCLUSIVE="disabled" JUCE_ALSA="disabled" JUCE_JACK="disabled"/>
+</JUCERPROJECT>
