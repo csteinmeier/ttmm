@@ -1,0 +1,57 @@
+﻿Der Buildvorgang wurde am 06.09.2016 09:50:58 gestartet.
+     1>Projekt "C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\PluginMusic\PluginMusic.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\TTMM\Source /I..\TTMM\JuceLibraryCode /I..\External\JUCE\modules /I../External/SDK/VST2/public.sdk/source/vst2.x /I../External/SDK/ASIOSDK2.3/common /I../External/SDK/VST2/ /I../External /IC:\Users\csteinmeier.AD\Dropbox\Musikinformatik\TTMM\ttmm\TTMM\TTMM\Source /ZI /nologo /W3 /WX- /Od /Oy- /D RUN_TIMER /D "LOGFILE_NAME=\"MusicLog.txt\"" /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _WINDLL /D _MBCS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FI"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\PluginMusic\src\AppConfig.h" /analyze- /errorReport:prompt src\DynamicComposition.cpp src\ListDisplay.cpp src\MusicPluginEditor.cpp
+         DynamicComposition.cpp
+     1>c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\pluginmusic\src\dynamiccomposition.h(216): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): Siehe Deklaration von 'inet_addr'
+         ListDisplay.cpp
+     1>c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\pluginmusic\src\dynamiccomposition.h(216): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): Siehe Deklaration von 'inet_addr'
+         MusicPluginEditor.cpp
+     1>c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\pluginmusic\src\dynamiccomposition.h(216): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): Siehe Deklaration von 'inet_addr'
+         Code wird generiert...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\Debug\Plugins\Music.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/External/google/" /LIBPATH:../PluginMusic/src libprotobuf_deb.lib "libprotobuf-lite_deb.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\Debug\Plugins\Music.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\Debug\Plugins\Music.lib" /MACHINE:X86 /DLL Debug\resources.res
+         Debug\juce_audio_basics.obj
+         Debug\juce_audio_devices.obj
+         Debug\juce_audio_formats.obj
+         Debug\juce_AAX_Wrapper.obj
+         Debug\juce_RTAS_DigiCode1.obj
+         Debug\juce_RTAS_DigiCode2.obj
+         Debug\juce_RTAS_DigiCode3.obj
+         Debug\juce_RTAS_WinUtilities.obj
+         Debug\juce_RTAS_Wrapper.obj
+         Debug\juce_PluginUtilities.obj
+         Debug\juce_VST3_Wrapper.obj
+         Debug\juce_VST_Wrapper.obj
+         Debug\juce_audio_processors.obj
+         Debug\juce_audio_utils.obj
+         Debug\juce_core.obj
+         Debug\juce_data_structures.obj
+         Debug\juce_events.obj
+         Debug\juce_graphics.obj
+         Debug\juce_gui_basics.obj
+         Debug\juce_gui_extra.obj
+         Debug\DataExchange.pb.obj
+         Debug\FileWriter.obj
+         Debug\GeneralPluginProcessor.obj
+         Debug\IPCConnection.obj
+         Debug\TimeTools.obj
+         Debug\Channel.obj
+         Debug\Node.obj
+         Debug\Song.obj
+         Debug\Stroke.obj
+         Debug\Track.obj
+         Debug\DynamicComposition.obj
+         Debug\ListDisplay.obj
+         Debug\MidiHandler.obj
+         Debug\MidiReader.obj
+         Debug\MusicPluginEditor.obj
+         PluginMusic.vcxproj -> C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\Debug\Plugins\Music.dll
+     1>Die Erstellung des Projekts "C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\PluginMusic\PluginMusic.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:17.40
