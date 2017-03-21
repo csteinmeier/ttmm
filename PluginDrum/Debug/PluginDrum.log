@@ -1,0 +1,173 @@
+﻿Der Buildvorgang wurde am 26.07.2016 10:23:16 gestartet.
+     1>Projekt "C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\PluginDrum\PluginDrum.vcxproj" auf Knoten "2", Rebuild Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/TTMM/Source" /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/TTMM/JuceLibraryCode" /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/External/JUCE/modules" /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/External/SDK/VST2" /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/External/SDK/ASIOSDK2.3/common" /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/External" /ZI /nologo /W3 /WX- /Od /Oy- /D RUN_TIMER /D "LOGFILE_NAME=\"DrumLog.txt\"" /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\\vc120.pdb" /Gd /TP /FI"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\PluginDrum\AppConfig.h" /analyze- /errorReport:prompt ..\External\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp ..\External\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp ..\External\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp ..\External\JUCE\modules\juce_audio_plugin_client\AAX\juce_AAX_Wrapper.cpp ..\External\JUCE\modules\juce_audio_plugin_client\utility\juce_PluginUtilities.cpp ..\External\JUCE\modules\juce_audio_plugin_client\VST3\juce_VST3_Wrapper.cpp ..\External\JUCE\modules\juce_audio_plugin_client\VST\juce_VST_Wrapper.cpp ..\External\JUCE\modules\juce_audio_processors\juce_audio_processors.cpp ..\External\JUCE\modules\juce_core\juce_core.cpp ..\External\JUCE\modules\juce_data_structures\juce_data_structures.cpp ..\External\JUCE\modules\juce_events\juce_events.cpp ..\External\JUCE\modules\juce_graphics\juce_graphics.cpp ..\External\JUCE\modules\juce_gui_basics\juce_gui_basics.cpp ..\External\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp ..\TTMM\Source\DataExchange.pb.cc ..\TTMM\Source\FileWriter.cpp ..\TTMM\Source\GeneralPluginProcessor.cpp ..\TTMM\Source\IPCConnection.cpp ..\TTMM\Source\TimeTools.cpp DrumDevice.cpp DrumMidiEvent.cpp DrumInputPluginProcessor.cpp DrumMusician.cpp DrumPluginEditor.cpp
+         juce_audio_basics.cpp
+         juce_audio_devices.cpp
+         juce_audio_formats.cpp
+         juce_AAX_Wrapper.cpp
+         juce_PluginUtilities.cpp
+         juce_VST3_Wrapper.cpp
+         juce_VST_Wrapper.cpp
+         juce_audio_processors.cpp
+         juce_core.cpp
+     1>c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\juce\modules\juce_core\juce_core.cpp(112): warning : "Please re-save your Introjucer project with the latest Introjucer version to avoid this warning"
+         juce_data_structures.cpp
+         juce_events.cpp
+         juce_graphics.cpp
+         juce_gui_basics.cpp
+         juce_gui_extra.cpp
+         DataExchange.pb.cc
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2113): Siehe Deklaration von 'std::_Copy_impl'
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\repeated_field.h(842): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)".
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 []
+         ,            Element=google::protobuf::uint64
+         ,            _InIt=const google::protobuf::uint64 []
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\repeated_field.h(841): Bei der Kompilierung der  Klassen-template der void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)-Memberfunktion
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\repeated_field.h(834): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)".
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\repeated_field.h(834): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "google::protobuf::internal::ElementCopier<Element,false>".
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\repeated_field.h(833): Bei der Kompilierung der  Klassen-template der void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)-Memberfunktion
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\repeated_field.h(828): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)".
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\repeated_field.h(827): Bei der Kompilierung der  Klassen-template der void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)-Memberfunktion
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\repeated_field.h(814): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)".
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\repeated_field.h(806): Bei der Kompilierung der  Klassen-template der void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)-Memberfunktion
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\repeated_field.h(685): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)".
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\repeated_field.h(631): Bei der Kompilierung der  Klassen-template der int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const-Memberfunktion
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\wire_format_lite_inl.h(276): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const".
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\wire_format_lite_inl.h(256): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "google::protobuf::RepeatedField<google::protobuf::uint64>".
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\external\google\protobuf\wire_format_lite_inl.h(309): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint64> *)".
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(2113): Siehe Deklaration von 'std::_Copy_impl'
+         FileWriter.cpp
+         GeneralPluginProcessor.cpp
+         IPCConnection.cpp
+         TimeTools.cpp
+         DrumDevice.cpp
+     1>c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\plugindrum\drumdevice.cpp(95): warning C4101: 'buff': Unreferenzierte lokale Variable
+         Code wird generiert...
+         Kompilieren...
+         DrumMidiEvent.cpp
+         DrumInputPluginProcessor.cpp
+     1>c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(62): warning C4244: '=': Konvertierung von '__int64' in 'long', möglicher Datenverlust
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(57): Bei der Kompilierung der  Klassen-template der ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::DeviceInputPluginProcessor(std::string,Device &,size_t)-Memberfunktion
+                 with
+                 [
+                     Device=ttmm::DrumDevice
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\plugindrum\druminputpluginprocessor.h(37): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::DeviceInputPluginProcessor(std::string,Device &,size_t)".
+                 with
+                 [
+                     Device=ttmm::DrumDevice
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\plugindrum\druminputpluginprocessor.h(31): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>".
+     1>c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(99): warning C4244: 'Initialisierung': Konvertierung von '__int64' in 'long', möglicher Datenverlust
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(78): Bei der Kompilierung der  Klassen-template der ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::~DeviceInputPluginProcessor(void)-Memberfunktion
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\plugindrum\druminputpluginprocessor.h(37): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::~DeviceInputPluginProcessor(void)".
+     1>c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(301): warning C4018: '<=': Konflikt zwischen 'signed' und 'unsigned'
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(300): Bei der Kompilierung der  Klassen-template der void ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::putMidiMessageIntoBufferIfPlayedCorrectly(int,juce::MidiBuffer &)-Memberfunktion
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(334): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::putMidiMessageIntoBufferIfPlayedCorrectly(int,juce::MidiBuffer &)".
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(415): Bei der Kompilierung der  Klassen-template der void ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::compareEventWithMusic(void)-Memberfunktion
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(293): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::compareEventWithMusic(void)".
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(288): Bei der Kompilierung der  Klassen-template der void ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::processAudioAndMidiSignals(ttmm::AudioBuffer &,juce::MidiBuffer &)-Memberfunktion
+         DrumMusician.cpp
+         DrumPluginEditor.cpp
+     1>c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(62): warning C4244: '=': Konvertierung von '__int64' in 'long', möglicher Datenverlust
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(57): Bei der Kompilierung der  Klassen-template der ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::DeviceInputPluginProcessor(std::string,Device &,size_t)-Memberfunktion
+                 with
+                 [
+                     Device=ttmm::DrumDevice
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\plugindrum\druminputpluginprocessor.h(37): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::DeviceInputPluginProcessor(std::string,Device &,size_t)".
+                 with
+                 [
+                     Device=ttmm::DrumDevice
+                 ]
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\plugindrum\druminputpluginprocessor.h(31): Siehe Verweis auf die Instanziierung der gerade kompilierten Klassen-template "ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>".
+     1>c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(99): warning C4244: 'Initialisierung': Konvertierung von '__int64' in 'long', möglicher Datenverlust
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(78): Bei der Kompilierung der  Klassen-template der ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::~DeviceInputPluginProcessor(void)-Memberfunktion
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\plugindrum\druminputpluginprocessor.h(37): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::~DeviceInputPluginProcessor(void)".
+     1>c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(301): warning C4018: '<=': Konflikt zwischen 'signed' und 'unsigned'
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(300): Bei der Kompilierung der  Klassen-template der void ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::putMidiMessageIntoBufferIfPlayedCorrectly(int,juce::MidiBuffer &)-Memberfunktion
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(334): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::putMidiMessageIntoBufferIfPlayedCorrectly(int,juce::MidiBuffer &)".
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(415): Bei der Kompilierung der  Klassen-template der void ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::compareEventWithMusic(void)-Memberfunktion
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(293): Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-template "void ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::compareEventWithMusic(void)".
+                 c:\users\csteinmeier.ad\desktop\ttmm sose16\ttmm\ttmm\source\deviceinputpluginprocessor.h(288): Bei der Kompilierung der  Klassen-template der void ttmm::DeviceInputPluginProcessor<ttmm::DrumDevice,ttmm::DrumMusician,200>::processAudioAndMidiSignals(ttmm::AudioBuffer &,juce::MidiBuffer &)-Memberfunktion
+         Code wird generiert...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/TTMM/Source" /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/TTMM/JuceLibraryCode" /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/External/JUCE/modules" /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/External/SDK/VST2" /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/External/SDK/ASIOSDK2.3/common" /I"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/External" /ZI /nologo /W3 /WX- /Od /Oy- /D RUN_TIMER /D "LOGFILE_NAME=\"DrumLog.txt\"" /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\\vc120.pdb" /Gz /TP /FI"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\PluginDrum\AppConfig.h" /analyze- /errorReport:prompt ..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_DigiCode1.cpp ..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_DigiCode2.cpp ..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_DigiCode3.cpp ..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_WinUtilities.cpp ..\External\JUCE\modules\juce_audio_plugin_client\RTAS\juce_RTAS_Wrapper.cpp
+         juce_RTAS_DigiCode1.cpp
+         juce_RTAS_DigiCode2.cpp
+         juce_RTAS_DigiCode3.cpp
+         juce_RTAS_WinUtilities.cpp
+         juce_RTAS_Wrapper.cpp
+         Code wird generiert...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\resources.res" ..\TTMM\resources.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\Debug\Plugins\Drums.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\/External/google/" libprotobuf_deb.lib "libprotobuf-lite_deb.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\Debug\Plugins\Drums.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\Debug\Plugins\Drums.lib" /MACHINE:X86 /DLL Debug\resources.res
+         Debug\\juce_audio_basics.obj
+         Debug\\juce_audio_devices.obj
+         Debug\\juce_audio_formats.obj
+         Debug\\juce_AAX_Wrapper.obj
+         Debug\\juce_RTAS_DigiCode1.obj
+         Debug\\juce_RTAS_DigiCode2.obj
+         Debug\\juce_RTAS_DigiCode3.obj
+         Debug\\juce_RTAS_WinUtilities.obj
+         Debug\\juce_RTAS_Wrapper.obj
+         Debug\\juce_PluginUtilities.obj
+         Debug\\juce_VST3_Wrapper.obj
+         Debug\\juce_VST_Wrapper.obj
+         Debug\\juce_audio_processors.obj
+         Debug\\juce_core.obj
+         Debug\\juce_data_structures.obj
+         Debug\\juce_events.obj
+         Debug\\juce_graphics.obj
+         Debug\\juce_gui_basics.obj
+         Debug\\juce_gui_extra.obj
+         Debug\\DataExchange.pb.obj
+         Debug\\FileWriter.obj
+         Debug\\GeneralPluginProcessor.obj
+         Debug\\IPCConnection.obj
+         Debug\\TimeTools.obj
+         Debug\\DrumDevice.obj
+         Debug\\DrumMidiEvent.obj
+         Debug\\DrumInputPluginProcessor.obj
+         Debug\\DrumMusician.obj
+         Debug\\DrumPluginEditor.obj
+            Bibliothek "C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\Debug\Plugins\Drums.lib" und Objekt "C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\Debug\Plugins\Drums.exp" werden erstellt.
+         PluginDrum.vcxproj -> C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\Debug\Plugins\Drums.dll
+     1>Die Erstellung des Projekts "C:\Users\csteinmeier.AD\Desktop\TTMM SoSe16\TTMM\PluginDrum\PluginDrum.vcxproj" ist abgeschlossen, Rebuild Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:01:12.14
